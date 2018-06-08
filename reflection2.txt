@@ -1,0 +1,33 @@
+What happens when you initialize a repository? Why do you need to do it?
+-> Git init is used to start using git on a project (in a folder).
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+-> The working directory is where you work with your files on your local machine.
+-> The staging area is after you 'git add', which is useful if you want to keep
+track of a bundle of files.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+-> The staging area stores the files which you want to commit, and you can check
+the staging area and the working directory using diff to know what you changed,
+making sure it's a logical one before commiting.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+-> Branches are helpful if people want to work on adding to the code in different
+places. If we branch it and make the changes, you can check to new branch with the
+master (or other branches) in case something fails.
+
+How do the diagrams help you visualize the branch structure?
+-> Diagrams help you visualize because it's easy to point out a point in the diagram
+and describe what happened (since it's not always linear).
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+-> Merging two branches together combines the changes made in different branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+-> Automatic merging is bound to come across a instance when people changed the
+same code (from the master). That's when manual merging is useful!
