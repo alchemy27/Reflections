@@ -1,0 +1,8 @@
+This is the final reflection for this project.
+5/22/2024
+
+In my personal opinion, git is an good option for local version control.
+It seems like git is super useful, in terms of collaboration.
+However, this kind of version control/collaboration is still not spghetti-code
+proof. At least that's what I think.
+
